@@ -1,28 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Lazyloading from './pages/LazyLoading'
 import Suspense from "./pages/Suspense";
+
+import "./App.css";
 
 function App() {
     return (
         <Router>
             <div>
-                <nav>
-                    <ul className="Nav">
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/lazy-load-images">Lazy Load Images</Link>
-                        </li>
-                        <li>
-                            <Link to="/suspense">React Suspense</Link>
-                        </li>
-                    </ul>
-                </nav>
-
+                <Navbar />
                 <Switch>
                     <Route path="/lazy-load-images">
                         <Lazyloading />
