@@ -17,6 +17,9 @@ const Navbar = (props) => {
                 <li>
                     <Link to="/use-effect">useEffect</Link>
                 </li>
+                <li>
+                    <Link to="/use-memo">useMemo</Link>
+                </li>
             </ul>
         </nav>
     )
