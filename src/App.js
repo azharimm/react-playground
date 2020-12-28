@@ -6,6 +6,7 @@ import Lazyloading from './pages/LazyLoading'
 import UseStatePage from './pages/useStatePage'
 import UseEffectPage from './pages/useEffectPage'
 import UseMemoPage from './pages/useMemoPage'
+import UseRefPage from './pages/useRefPage'
 
 import "./App.css";
 
@@ -26,6 +27,9 @@ function App() {
                     </Route>
                     <Route path="/use-memo">
                         <UseMemoPage />
+                    </Route>
+                    <Route path="/use-ref">
+                        <UseRefPage />
                     </Route>
                     <Route path="/">
                         <Home />

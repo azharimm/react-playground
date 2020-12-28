@@ -20,6 +20,9 @@ const Navbar = (props) => {
                 <li>
                     <Link to="/use-memo">useMemo</Link>
                 </li>
+                <li>
+                    <Link to="/use-ref">useRef</Link>
+                </li>
             </ul>
         </nav>
     )
