@@ -12,7 +12,10 @@ const Navbar = (props) => {
                     <Link to="/lazy-load-images">Lazy Load Images</Link>
                 </li>
                 <li>
-                    <Link to="/use-state">Use State</Link>
+                    <Link to="/use-state">useState</Link>
+                </li>
+                <li>
+                    <Link to="/use-effect">useEffect</Link>
                 </li>
             </ul>
         </nav>

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Lazyloading from './pages/LazyLoading'
 import UseStatePage from './pages/useStatePage'
+import UseEffectPage from './pages/useEffectPage'
 
 import "./App.css";
 
@@ -18,6 +19,9 @@ function App() {
                     </Route>
                     <Route path="/use-state">
                         <UseStatePage />
+                    </Route>
+                    <Route path="/use-effect">
+                        <UseEffectPage />
                     </Route>
                     <Route path="/">
                         <Home />
