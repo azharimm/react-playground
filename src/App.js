@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Lazyloading from './pages/LazyLoading'
-import Suspense from "./pages/Suspense";
+import UseStatePage from './pages/useStatePage'
 
 import "./App.css";
 
@@ -16,8 +16,8 @@ function App() {
                     <Route path="/lazy-load-images">
                         <Lazyloading />
                     </Route>
-                    <Route path="/suspense">
-                        <Suspense />
+                    <Route path="/use-state">
+                        <UseStatePage />
                     </Route>
                     <Route path="/">
                         <Home />

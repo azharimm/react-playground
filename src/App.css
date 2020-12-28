@@ -4,6 +4,10 @@
     justify-content: space-evenly;
 }
 
+.center {
+    justify-content: centers;
+}
+
 .text-center {
     text-align: center;
 }

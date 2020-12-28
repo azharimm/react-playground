@@ -12,7 +12,7 @@ const Navbar = (props) => {
                     <Link to="/lazy-load-images">Lazy Load Images</Link>
                 </li>
                 <li>
-                    <Link to="/suspense">React Suspense</Link>
+                    <Link to="/use-state">Use State</Link>
                 </li>
             </ul>
         </nav>
