@@ -7,6 +7,7 @@ import UseStatePage from './pages/useStatePage'
 import UseEffectPage from './pages/useEffectPage'
 import UseMemoPage from './pages/useMemoPage'
 import UseRefPage from './pages/useRefPage'
+import UseContextPage from './pages/useContextPage'
 
 import "./App.css";
 
@@ -30,6 +31,9 @@ function App() {
                     </Route>
                     <Route path="/use-ref">
                         <UseRefPage />
+                    </Route>
+                    <Route path="/use-context">
+                        <UseContextPage />
                     </Route>
                     <Route path="/">
                         <Home />
