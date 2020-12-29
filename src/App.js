@@ -8,6 +8,7 @@ import UseEffectPage from './pages/useEffectPage'
 import UseMemoPage from './pages/useMemoPage'
 import UseRefPage from './pages/useRefPage'
 import UseContextPage from './pages/useContextPage'
+import UseReducerPage from './pages/useReducerPage'
 
 import "./App.css";
 
@@ -34,6 +35,9 @@ function App() {
                     </Route>
                     <Route path="/use-context">
                         <UseContextPage />
+                    </Route>
+                    <Route path="/use-reducer">
+                        <UseReducerPage />
                     </Route>
                     <Route path="/">
                         <Home />

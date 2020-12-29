@@ -26,6 +26,9 @@ const Navbar = (props) => {
                 <li>
                     <Link to="/use-context">useContext</Link>
                 </li>
+                <li>
+                    <Link to="/use-reducer">useReducer</Link>
+                </li>
             </ul>
         </nav>
     )
