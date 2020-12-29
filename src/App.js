@@ -9,6 +9,7 @@ import UseMemoPage from './pages/useMemoPage'
 import UseRefPage from './pages/useRefPage'
 import UseContextPage from './pages/useContextPage'
 import UseReducerPage from './pages/useReducerPage'
+import UseCallbackPage from './pages/useCallbackPage'
 
 import "./App.css";
 
@@ -38,6 +39,9 @@ function App() {
                     </Route>
                     <Route path="/use-reducer">
                         <UseReducerPage />
+                    </Route>
+                    <Route path="/use-callback">
+                        <UseCallbackPage />
                     </Route>
                     <Route path="/">
                         <Home />

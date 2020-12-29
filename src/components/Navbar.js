@@ -29,6 +29,9 @@ const Navbar = (props) => {
                 <li>
                     <Link to="/use-reducer">useReducer</Link>
                 </li>
+                <li>
+                    <Link to="/use-callback">useCallback</Link>
+                </li>
             </ul>
         </nav>
     )
