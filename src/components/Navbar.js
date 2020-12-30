@@ -32,6 +32,9 @@ const Navbar = (props) => {
                 <li>
                     <Link to="/use-callback">useCallback</Link>
                 </li>
+                <li>
+                    <Link to="/custom-hooks">Custom Hooks</Link>
+                </li>
             </ul>
         </nav>
     )

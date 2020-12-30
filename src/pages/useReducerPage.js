@@ -18,7 +18,7 @@ function reducer(todos, action) {
             });
         case ACTIONS.DELETE_TODO:
             return todos.filter((todo) => {
-                return todo.id != action.payload.id;
+                return todo.id !== action.payload.id;
             });
         default:
             return todos;

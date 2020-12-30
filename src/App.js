@@ -10,6 +10,7 @@ import UseRefPage from './pages/useRefPage'
 import UseContextPage from './pages/useContextPage'
 import UseReducerPage from './pages/useReducerPage'
 import UseCallbackPage from './pages/useCallbackPage'
+import CustomHooksPage from './pages/CustomHooksPage'
 
 import "./App.css";
 
@@ -42,6 +43,9 @@ function App() {
                     </Route>
                     <Route path="/use-callback">
                         <UseCallbackPage />
+                    </Route>
+                    <Route path="/custom-hooks">
+                        <CustomHooksPage />
                     </Route>
                     <Route path="/">
                         <Home />
